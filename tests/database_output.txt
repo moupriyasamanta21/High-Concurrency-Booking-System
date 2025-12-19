@@ -1,109 +1,54 @@
- Starting High-Concurrency Optimistic Simulation (100 Users, 10 Seats)...
-✅ SUCCESS: User_11 booked Seat 4 (Ver 0)
-✅ SUCCESS: User_05 booked Seat 6 (Ver 0)
-🔄 COLLISION: User_06 failed. Seat 4 was modified by someone else!
-✅ SUCCESS: User_07 booked Seat 5 (Ver 0)
-🔄 COLLISION: User_08 failed. Seat 6 was modified by someone else!
-✅ SUCCESS: User_01 booked Seat 7 (Ver 0)
-❌ TAKEN: User_13 found Seat 4 already occupied
-✅ SUCCESS: User_00 booked Seat 2 (Ver 0)
-❌ TAKEN: User_03 found Seat 2 already occupied
-✅ SUCCESS: User_04 booked Seat 3 (Ver 0)
-🔄 COLLISION: User_10 failed. Seat 2 was modified by someone else!
-🔄 COLLISION: User_02 failed. Seat 5 was modified by someone else!
-✅ SUCCESS: User_27 booked Seat 10 (Ver 0)
-❌ TAKEN: User_21 found Seat 6 already occupied
-❌ TAKEN: User_20 found Seat 3 already occupied
-🔄 COLLISION: User_28 failed. Seat 10 was modified by someone else!
-🔄 COLLISION: User_12 failed. Seat 3 was modified by someone else!
-❌ TAKEN: User_23 found Seat 3 already occupied
-❌ TAKEN: User_30 found Seat 2 already occupied
-❌ TAKEN: User_15 found Seat 4 already occupied
-❌ TAKEN: User_16 found Seat 2 already occupied
-❌ TAKEN: User_40 found Seat 6 already occupied
-❌ TAKEN: User_26 found Seat 4 already occupied
-❌ TAKEN: User_45 found Seat 7 already occupied
-✅ SUCCESS: User_18 booked Seat 1 (Ver 0)
-❌ TAKEN: User_09 found Seat 1 already occupied
-✅ SUCCESS: User_22 booked Seat 9 (Ver 0)
-❌ TAKEN: User_38 found Seat 8 already occupied
-❌ TAKEN: User_19 found Seat 1 already occupied
-✅ SUCCESS: User_31 booked Seat 8 (Ver 0)
-❌ TAKEN: User_53 found Seat 2 already occupied
-❌ TAKEN: User_41 found Seat 4 already occupied
-❌ TAKEN: User_48 found Seat 9 already occupied
-❌ TAKEN: User_52 found Seat 4 already occupied
-❌ TAKEN: User_47 found Seat 5 already occupied
-❌ TAKEN: User_14 found Seat 2 already occupied
-❌ TAKEN: User_32 found Seat 5 already occupied
-❌ TAKEN: User_24 found Seat 2 already occupied
-🔄 COLLISION: User_50 failed. Seat 1 was modified by someone else!
-❌ TAKEN: User_33 found Seat 2 already occupied
-❌ TAKEN: User_37 found Seat 9 already occupied
-❌ TAKEN: User_44 found Seat 8 already occupied
-❌ TAKEN: User_42 found Seat 4 already occupied
-❌ TAKEN: User_55 found Seat 8 already occupied
-❌ TAKEN: User_25 found Seat 7 already occupied
-❌ TAKEN: User_56 found Seat 9 already occupied
-❌ TAKEN: User_39 found Seat 3 already occupied
-❌ TAKEN: User_36 found Seat 10 already occupied
-❌ TAKEN: User_62 found Seat 7 already occupied
-❌ TAKEN: User_35 found Seat 3 already occupied
-❌ TAKEN: User_29 found Seat 9 already occupied
-❌ TAKEN: User_58 found Seat 8 already occupied
-❌ TAKEN: User_57 found Seat 2 already occupied
-❌ TAKEN: User_43 found Seat 10 already occupied
-❌ TAKEN: User_54 found Seat 7 already occupied
-❌ TAKEN: User_61 found Seat 1 already occupied
-❌ TAKEN: User_64 found Seat 5 already occupied
-❌ TAKEN: User_34 found Seat 1 already occupied
-❌ TAKEN: User_51 found Seat 5 already occupied
-❌ TAKEN: User_63 found Seat 5 already occupied
-❌ TAKEN: User_49 found Seat 1 already occupied
-❌ TAKEN: User_59 found Seat 1 already occupied
-❌ TAKEN: User_60 found Seat 10 already occupied
-❌ TAKEN: User_46 found Seat 7 already occupied
-❌ TAKEN: User_66 found Seat 3 already occupied
-❌ TAKEN: User_65 found Seat 3 already occupied
-❌ TAKEN: User_68 found Seat 1 already occupied
-🔄 COLLISION: User_17 failed. Seat 8 was modified by someone else!
-❌ TAKEN: User_69 found Seat 9 already occupied
-❌ TAKEN: User_67 found Seat 4 already occupied
-❌ TAKEN: User_71 found Seat 7 already occupied
-❌ TAKEN: User_70 found Seat 6 already occupied
-❌ TAKEN: User_74 found Seat 9 already occupied
-❌ TAKEN: User_75 found Seat 8 already occupied
-❌ TAKEN: User_73 found Seat 2 already occupied
-❌ TAKEN: User_77 found Seat 10 already occupied
-❌ TAKEN: User_72 found Seat 3 already occupied
-❌ TAKEN: User_76 found Seat 9 already occupied
-❌ TAKEN: User_78 found Seat 4 already occupied
-❌ TAKEN: User_82 found Seat 9 already occupied
-❌ TAKEN: User_80 found Seat 10 already occupied
-❌ TAKEN: User_79 found Seat 7 already occupied
-❌ TAKEN: User_81 found Seat 3 already occupied
-❌ TAKEN: User_84 found Seat 8 already occupied
-❌ TAKEN: User_86 found Seat 1 already occupied
-❌ TAKEN: User_85 found Seat 1 already occupied
-❌ TAKEN: User_87 found Seat 8 already occupied
-❌ TAKEN: User_88 found Seat 8 already occupied
-❌ TAKEN: User_89 found Seat 9 already occupied
-❌ TAKEN: User_83 found Seat 3 already occupied
-❌ TAKEN: User_90 found Seat 10 already occupied
-❌ TAKEN: User_91 found Seat 3 already occupied
-❌ TAKEN: User_93 found Seat 6 already occupied
-❌ TAKEN: User_92 found Seat 3 already occupied
-❌ TAKEN: User_94 found Seat 6 already occupied
-❌ TAKEN: User_96 found Seat 6 already occupied
-❌ TAKEN: User_98 found Seat 10 already occupied
-❌ TAKEN: User_95 found Seat 3 already occupied
-❌ TAKEN: User_97 found Seat 5 already occupied
-❌ TAKEN: User_99 found Seat 2 already occupied
+# DBMS state before running the code
 
-==============================
-🏁 SIMULATION COMPLETE
-Total Time: 1.53 seconds
-✅ Successful Bookings: 10
-🔄 Optimistic Collisions: 8
-❌ Already Taken: 82
-==============================
+booking_db=# select * from seats order by seat_id;
+ seat_id |  status   | version
+---------+-----------+---------
+       1 | AVAILABLE |       0
+       2 | AVAILABLE |       0
+       3 | AVAILABLE |       0
+       4 | AVAILABLE |       0
+       5 | AVAILABLE |       0
+       6 | AVAILABLE |       0
+       7 | AVAILABLE |       0
+       8 | AVAILABLE |       0
+       9 | AVAILABLE |       0
+      10 | AVAILABLE |       0
+(10 rows)
+
+
+booking_db=# select * from bookings;
+ booking_id | seat_id | user_id | booked_at
+------------+---------+---------+-----------
+
+# DBMS state after running the python code
+
+booking_db=# select * from seats order by seat_id;
+ seat_id | status | version
+---------+--------+---------
+       1 | BOOKED |       1
+       2 | BOOKED |       1
+       3 | BOOKED |       1
+       4 | BOOKED |       1
+       5 | BOOKED |       1
+       6 | BOOKED |       1
+       7 | BOOKED |       1
+       8 | BOOKED |       1
+       9 | BOOKED |       1
+      10 | BOOKED |       1
+(10 rows)
+
+
+booking_db=# select * from bookings;
+ booking_id | seat_id | user_id |         booked_at
+------------+---------+---------+----------------------------
+         41 |       4 | User_11 | 2025-12-19 16:12:12.184647
+         42 |       6 | User_05 | 2025-12-19 16:12:12.18146
+         43 |       5 | User_07 | 2025-12-19 16:12:12.260212
+         44 |       7 | User_01 | 2025-12-19 16:12:12.229956
+         45 |       2 | User_00 | 2025-12-19 16:12:12.281995
+         46 |       3 | User_04 | 2025-12-19 16:12:12.291786
+         47 |      10 | User_27 | 2025-12-19 16:12:12.386793
+         48 |       1 | User_18 | 2025-12-19 16:12:12.453519
+         49 |       8 | User_31 | 2025-12-19 16:12:12.507474
+         50 |       9 | User_22 | 2025-12-19 16:12:12.572155
+(10 rows)
